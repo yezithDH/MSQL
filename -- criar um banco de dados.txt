@@ -14,3 +14,12 @@ criado_em timestamp default current_timestamp
 
 -- mostra a estrutura da tabela cliente 
 desc cliente;
+
+-- criar tabela de produto 
+create table produto(
+id_produto int auto_increment primary key,
+nome varchar(100) not null,
+preço decimal(10,2) not null
+);
+
+desc produto;
